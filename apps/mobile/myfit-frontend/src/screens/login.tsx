@@ -12,7 +12,7 @@ import {
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { MaterialIcons, Ionicons } from '@expo/vector-icons';
-import { router } from 'expo-router';
+import { Link, router } from 'expo-router';
 
 const COLORS = {
   primary: "#13a4ec",
@@ -144,7 +144,7 @@ const Login = () => {
             <View style={styles.signupContainer}>
               <Text style={styles.signupText}>Dont have an account? </Text>
               <TouchableOpacity>
-                <Text style={styles.signupLink}>Register</Text>
+                <Link href={"/signup"} style={styles.signupLink}>Register</Link>
               </TouchableOpacity>
             </View>
           </View>

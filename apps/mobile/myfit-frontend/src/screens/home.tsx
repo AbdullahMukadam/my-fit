@@ -18,7 +18,7 @@ const { width, height } = Dimensions.get('window');
 export default function VirtualWardrobeScreen() {
 
   const handlePress = () => {
-    router.replace("/onboard")
+    router.replace("/login")
   }
 
   return (

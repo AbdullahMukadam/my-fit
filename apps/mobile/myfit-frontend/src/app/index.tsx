@@ -1,6 +1,7 @@
 
 import React from 'react'
-import VirtualWardrobeScreen from '@/src/screens/home'
+import VirtualWardrobeScreen from '../screens/home'
+
 
 const OnboardScreen = () => {
     return (
